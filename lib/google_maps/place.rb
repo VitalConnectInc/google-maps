@@ -5,14 +5,18 @@ require File.expand_path('api', __dir__)
 module Google
   module Maps
     class Place
-      attr_reader :text, :html, :keyword, :place_id
+      attr_reader :text, :html, :structured_text, :keyword, :place_id
       alias to_s text
       alias to_html html
 
       def initialize(data, keyword)
         @text = data.description
         @place_id = data.place_id
-        @html = highligh_keywords(data, keyword)
+        @structured_text = {
+          main: data.structured_formatting&.main_text,
+          secondary: data.structured_formatting&.secondary_text
+        }
+        @html = highlight_keywords(data, keyword)
       end
 
       def self.find(keyword, language = :en)
@@ -22,7 +26,7 @@ module Google
 
       private
 
-      def highligh_keywords(data, keyword)
+      def highlight_keywords(data, keyword)
         keyword = Regexp.escape(keyword)
         matches = Array(keyword.scan(/\w+/))
         html = data.description.dup

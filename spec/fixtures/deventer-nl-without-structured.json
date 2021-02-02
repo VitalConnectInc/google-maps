@@ -10,16 +10,6 @@
       ],
       "place_id": "ChIJEVZdr8nrx0cR43GF2RgNpME",
       "reference": "ChIJEVZdr8nrx0cR43GF2RgNpME",
-      "structured_formatting": {
-        "main_text": "Deventer",
-        "main_text_matched_substrings": [
-          {
-            "length": 8,
-            "offset": 0
-          }
-        ],
-        "secondary_text": "Nederland"
-      },
       "terms": [
         {
           "offset": 0,
@@ -46,16 +36,6 @@
       ],
       "place_id": "ChIJ8eFCebbrx0cRFQB9vaxiZSg",
       "reference": "ChIJ8eFCebbrx0cRFQB9vaxiZSg",
-      "structured_formatting": {
-        "main_text": "Deventer Ziekenhuis",
-        "main_text_matched_substrings": [
-          {
-            "length": 8,
-            "offset": 0
-          }
-        ],
-        "secondary_text": "Nico Bolkesteinlaan, Deventer, Nederland"
-      },
       "terms": [
         {
           "offset": 0,
@@ -91,16 +71,6 @@
       ],
       "place_id": "EiREZXZlbnRlcnN0cmFhdCwgQXBlbGRvb3JuLCBOZWRlcmxhbmQiLiosChQKEgkDpv9jRMfHRxFPlxmsslBRixIUChIJy4cUTSi4x0cRsGUejVreAAQ",
       "reference": "EiREZXZlbnRlcnN0cmFhdCwgQXBlbGRvb3JuLCBOZWRlcmxhbmQiLiosChQKEgkDpv9jRMfHRxFPlxmsslBRixIUChIJy4cUTSi4x0cRsGUejVreAAQ",
-      "structured_formatting": {
-        "main_text": "Deventerstraat",
-        "main_text_matched_substrings": [
-          {
-            "length": 8,
-            "offset": 0
-          }
-        ],
-        "secondary_text": "Apeldoorn, Nederland"
-      },
       "terms": [
         {
           "offset": 0,
@@ -130,16 +100,6 @@
       ],
       "place_id": "ChIJh2iCd0Lqx0cRmGm1Y7xD1F8",
       "reference": "ChIJh2iCd0Lqx0cRmGm1Y7xD1F8",
-      "structured_formatting": {
-        "main_text": "Deventer",
-        "main_text_matched_substrings": [
-          {
-            "length": 8,
-            "offset": 0
-          }
-        ],
-        "secondary_text": "Stationsplein, Deventer, Nederland"
-      },
       "terms": [
         {
           "offset": 0,
@@ -176,16 +136,6 @@
       ],
       "place_id": "EiREZXZlbnRlcnN0cmFhdHdlZywgWndvbGxlLCBOZWRlcmxhbmQiLiosChQKEgkZfut1397HRxEvTWWMrkzD-hIUChIJsewSnSDfx0cRjD7dkiRbC80",
       "reference": "EiREZXZlbnRlcnN0cmFhdHdlZywgWndvbGxlLCBOZWRlcmxhbmQiLiosChQKEgkZfut1397HRxEvTWWMrkzD-hIUChIJsewSnSDfx0cRjD7dkiRbC80",
-      "structured_formatting": {
-        "main_text": "Deventerstraatweg",
-        "main_text_matched_substrings": [
-          {
-            "length": 8,
-            "offset": 0
-          }
-        ],
-        "secondary_text": "Zwolle, Nederland"
-      },
       "terms": [
         {
           "offset": 0,
