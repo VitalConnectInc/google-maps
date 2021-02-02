@@ -13,8 +13,8 @@ module Google
         @text = data.description
         @place_id = data.place_id
         @structured_text = {
-          main: data.structured_formatting&.main_text,
-          secondary: data.structured_formatting&.secondary_text
+          main: data.structured_formatting&.dig(:main_text),
+          secondary: data.structured_formatting&.dig(:secondary_text)
         }
         @html = highlight_keywords(data, keyword)
       end
